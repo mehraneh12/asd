@@ -1,0 +1,96 @@
+*{  text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+ @font-face{
+    font-family:'fontawesome-webfont.ttf' ;
+    src: url("/fonts/fontawesome-webfont.ttf");
+ }
+ body{
+    font-family:'fontawesome-webfont.ttf' ;
+    direction:ltr;
+    /* background:url(../images/1.jpeg)no-repeat  fixed;
+    -webkit-background-size:cover ; */
+    background-color:rgb(156, 122, 151);
+   
+ }
+  ::placeholder ,input ,span,button{
+    font-family:'fontawesome-webfont.ttf';
+  }
+  .login{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .login h1{
+    color:#ffffff;
+    /* margin:px; */
+    padding-bottom: 14px;
+    /* border-bottom: 3px solid  rgb(88, 69, 86); */
+    font-size:40px;
+    font-weight: lighter;
+     
+
+}
+/* .login h1:hover{
+   
+    padding-bottom: 9px;
+    font-size: 32px;
+} */
+.login input[type="text"],input[type="password"],span{
+    margin:20px;
+    padding:10px 14px;
+     width: 290px;
+     border-radius: 24px;
+     border:1px solid #d2dae2;
+     transition: 0.5s;
+     font-size:18px;
+     direction:ltr;
+  
+     box-shadow:0px 3px 15px   rgb(88, 69, 86);
+}
+.login input[type="text"]:hover,input[type="password"]:hover{
+    width:330px;
+
+}
+
+::placeholder{
+   color:#c1c4c6;
+}
+ button ,a{
+  box-shadow:0px 3px 15px    rgb(88, 69, 86);
+
+    margin:20px;
+    padding:10px 14px;
+     width:80px;
+     border-radius: 24px;
+     border:1px solid #d2dae2;
+     background-color: #ffffff;
+     cursor: pointer;
+     transition: 0.7s;
+     color:#7f8c8d ;
+     font-size:20px ;
+     color:  rgb(88, 69, 86);
+     display: inline-block;
+     text-decoration: none;
+}
+ button:hover , a:hover{
+background-color:   rgb(178, 140, 172);
+color:#ffffff;
+ border:1px solid rgb(203, 175, 199);;
+}
+ span{
+    color: #ffffff;
+    background-color: rgb(178, 140, 172);
+   
+    width: 60%;
+     border-radius: 24px;
+     border:1px solid rgb(178, 140, 172);
+ }
